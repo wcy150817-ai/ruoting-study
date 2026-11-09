@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "rewrites": [
+    {
+      "source": "/api/data",
+      "destination": "/data.json"
+    },
+    {
+      "source": "/(.*)",
+      "destination": "/index.html"
+    }
+  ]
+}
